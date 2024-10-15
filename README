@@ -1,0 +1,492 @@
+server.js`: Sets up the Node.js server using Express, enabling static file serving and CORS.
+- `public/index.html`: Main HTML file for displaying employee data with Bootstrap styling.
+
+## Features
+
+- **Add Employee**: Users can add new employees with attributes such as ID, Name, Age, Department, and Role to the PostgreSQL database.
+- **View Employees**: Displays employee details in a table with options to sort by any column.
+- **Search Functionality**: Includes a search bar to filter employees by Name.
+- **Responsive Design**: Ensures the application is accessible and user-friendly across various devices.
+
+## Getting Started
+
+### Requirements
+
+To run the EmpData project, ensure the following technologies are installed on your computer:
+
+- **Python**: For frontend development.
+- **Node.js**: To run the Express.js server.
+- **PostgreSQL**: For database management.
+
+### Quickstart
+
+1. **Set up the Backend**:
+   - Install Node.js dependencies:
+     ```bash
+     npm install express cors pg body-parser
+     ```
+
+2. **Set up the Frontend**:
+   - No additional setup is required for the frontend, as it is built using static HTML and Bootstrap.
+
+3. **Run the Server**:
+   - Start the Express.js server:
+     ```bash
+     node server.js
+     ```
+
+4. **Access the Application**:
+   - Open your web browser and navigate to `http://localhost:3000
+################################################################################
+public/index.html`: The main HTML file for displaying employee data.
+- `server.js`: The Node.js server script using Express.js to manage API requests and serve static files.
+
+## Features
+
+- **Employee Data Display**: View a list of employees with attributes such as ID, Name, Age, Department, and Role in a table format.
+- **Add Employee**: A dedicated page to add new employees to the PostgreSQL database.
+- **Sorting and Searching**: Sort employees by any column and search for employees by name using a search bar.
+- **Responsive Design**: The UI is built with Bootstrap to ensure it is responsive and accessible across different devices.
+- **API Endpoints**: 
+  - GET API to fetch all employee attributes from the PostgreSQL database.
+  - POST API to add new employee records to the database.
+
+## Getting started
+
+### Requirements
+
+To run the EmpData project, ensure the following technologies are installed on your system:
+
+- Python (for frontend logic)
+- Node.js (to run the Express.js backend)
+- PostgreSQL (for the employee database)
+
+Additionally, the following Node.js packages are required:
+
+- Express: `npm install express`
+- pg: `npm install pg`
+- body-parser: `npm install body-parser`
+- cors: `npm install cors`
+
+### Quickstart
+
+1. **Set up the Backend:**
+   - Ensure PostgreSQL is installed and running.
+   - Create a PostgreSQL database for storing employee data.
+   - Install Node.js and required packages using the commands mentioned above.
+   - Run the Express.js server by executing `node server.js` in the terminal.
+
+2. **Set up the Frontend:**
+   - Open `public/index.html` in a web browser to access the employee data interface.
+
+3. **Accessing the Application:**
+   - Once the server is running, navigate to `http://localhost:3000
+################################################################################
+GET /api/employees`: Retrieves all employee records.
+  - `POST /api/employees`: Allows adding a new employee record.
+
+## Getting started
+
+### Requirements
+
+To run the EmpData project, ensure the following technologies are installed on your computer:
+
+- **Python**: Required for building the frontend.
+- **Node.js**: Required to run the Express.js backend server.
+- **PostgreSQL**: Database for storing employee data.
+
+### Quickstart
+
+Follow these steps to set up and run the EmpData project:
+
+1. **Install Node.js dependencies**:
+   - Express: `npm install express`
+   - PostgreSQL client: `npm install pg`
+   - Body-parser: `npm install body-parser`
+   - CORS: `npm install cors`
+
+2. **Install Python dependencies**:
+   - Bootstrap: `pip install bootstrap`
+
+3. **Set up the PostgreSQL database**:
+   - Configure your database connection details in `db.js`.
+
+4. **Start the backend server**:
+   - Run the server using the command: `node server.js`
+
+5. **Access the application**:
+   - Open a web browser and navigate to `http://localhost:3000
+################################################################################
+public` directory.
+- **Backend**: Built with Node.js and Express.js, including API routes for data management.
+- **Database**: PostgreSQL for storing and managing employee data.
+
+## Features
+
+- **Employee Display**: View a list of employee details in a table format with sortable columns.
+- **Add Employee**: Form-based interface to add new employees to the database.
+- **Search Functionality**: Filter employees by name using a search bar.
+- **Responsive Design**: Ensures accessibility and usability across different devices.
+
+## Getting Started
+
+### Requirements
+
+To run the EmpData project, you will need the following technologies installed on your computer:
+
+- **Python**: Required for any Python-specific logic in the frontend.
+- **Node.js**: To run the Express.js backend server.
+- **PostgreSQL**: For the database to store employee data.
+
+### Quickstart
+
+1. **Install Node.js and npm**: Ensure Node.js is installed on your system. You can download it from [nodejs.org](https://nodejs.org/).
+
+2. **Install PostgreSQL**: Install PostgreSQL locally or set up a cloud-based PostgreSQL service.
+
+3. **Install Node.js Dependencies**: Run the following commands to install the necessary Node.js packages:
+   ```bash
+   npm install express
+   npm install pg
+   npm install body-parser
+   npm install cors
+   ```
+
+4. **Set Up the Database**:
+   - Create a PostgreSQL database and a table named `employees` with columns: `id`, `name`, `age`, `department`, `role`.
+
+5. **Start the Server**: Run the Node.js server using:
+   ```bash
+   node server.js
+   ```
+
+6. **Access the Application**: Open a web browser and navigate to `http://localhost:3000
+################################################################################
+public/index.html`**: Main HTML entry point for the frontend.
+- **`public/index.js`**: Client-side JavaScript for handling UI interactions and API communication.
+- **`server.js`**: Node.js server setup using Express.js.
+- **`db.js`**: Manages PostgreSQL database connections.
+- **`routes/employees.js`**: Defines API endpoints for employee data management.
+
+## Features
+
+- **Add Employee**: Users can add new employee records with attributes such as ID, Name, Age, Department, and Role.
+- **View Employees**: Displays employee details in a table format with options to sort by any column.
+- **Search Functionality**: A search bar allows filtering employees by name.
+- **Responsive Design**: The UI is built to be responsive and accessible.
+
+## Getting Started
+
+### Requirements
+
+To run the EmpData project, ensure the following technologies are installed on your system:
+
+- Python
+- Node.js
+- PostgreSQL
+
+### Quickstart
+
+1. **Backend Setup**:
+   - Install Node.js dependencies:
+     ```bash
+     npm install express pg body-parser cors
+     ```
+   - Start the Express.js server:
+     ```bash
+     node server.js
+     ```
+
+2. **Frontend Setup**:
+   - Ensure Python is installed to handle any Python-specific logic if required.
+   - Open `public/index.html` in a web browser to access the application interface.
+
+3. **Database Setup**:
+   - Ensure PostgreSQL is running locally or accessible via a cloud service.
+   - Configure database connection settings in `db.js
+################################################################################
+public/index.html`: Main HTML file for displaying the employee data UI.
+- `public/index.js`: Client-side JavaScript handling UI interactions.
+- `server.js`: Node.js server setup using Express.
+- `db.js`: PostgreSQL database connection management.
+- `routes/employees.js`: Express.js routes for handling employee data API requests.
+
+## Features
+
+- **Employee Management**: Add and view employee details including ID, Name, Age, Department, and Role.
+- **Responsive UI**: Built with Bootstrap for a clean and accessible interface.
+- **Data Sorting and Filtering**: Sort employee data by any column and filter by Name using a search bar.
+- **Data Storage**: Employee data is stored and managed in a PostgreSQL database.
+- **API Endpoints**: 
+  - `GET /employees`: Fetches all employee records from the database.
+  - `POST /employees`: Adds a new employee record to the database.
+
+## Getting Started
+
+### Requirements
+
+To successfully run the EmpData application, ensure the following technologies are installed on your system:
+
+- **Python**: Required for frontend logic.
+- **Node.js**: Necessary for running the Express.js backend server.
+- **PostgreSQL**: Database used for storing employee data.
+
+### Quickstart
+
+Follow these steps to set up and run the EmpData project:
+
+1. **Set Up PostgreSQL**: Ensure PostgreSQL is installed and running. Create a database for employee data.
+
+2. **Install Node.js Packages**: Open a terminal and navigate to the project root directory. Install the required Node.js packages:
+   ```bash
+   npm install express pg body-parser cors
+   ```
+
+3. **Run the Server**: Start the Express.js server by executing the following command in the terminal:
+   ```bash
+   node server.js
+   ```
+
+4. **Access the Application**: Open a web browser and navigate to `http://localhost:3000
+################################################################################
+server.js`: Sets up the Node.js server using Express and serves static files.
+- `public/index.html`: Main HTML page displaying the employee data.
+- `public/index.js`: Client-side JavaScript for managing interactions with the employee interface.
+- `db.js`: Manages the PostgreSQL database connection.
+- `routes/employees.js`: Defines API endpoints for fetching and adding employee data.
+
+## Features
+
+- **View Employees**: Display a list of employees with attributes such as ID, Name, Age, Department, and Role in a table format.
+- **Add Employees**: Form to add new employees to the PostgreSQL database.
+- **Sort and Search**: Sort the employee table by any column and search employees by name.
+- **Responsive Design**: The UI is designed to be clean, accessible, and responsive.
+- **Clear Search**: A clear button is provided to reset the search field.
+
+## Getting Started
+
+### Requirements
+
+To run the EmpData project, ensure you have the following installed on your computer:
+
+- Python
+- Node.js
+- PostgreSQL
+
+### Quickstart
+
+1. **Set Up the Backend**:
+   - Install Node.js dependencies:
+     ```bash
+     npm install express pg body-parser cors
+     ```
+
+2. **Set Up the Frontend**:
+   - Ensure the `public/index.html` and `public/index.js` files are in place.
+
+3. **Run the Server**:
+   - Start the Express.js server:
+     ```bash
+     node server.js
+     ```
+
+4. **Access the Application**:
+   - Open your web browser and navigate to `http://localhost:3000
+################################################################################
+   git clone <repository-url>
+   cd empdata
+   ```
+
+2. **Install Backend Dependencies:**
+   ```
+   npm install express pg body-parser cors
+   ```
+
+3. **Set Up PostgreSQL Database:**
+   - Ensure PostgreSQL is installed and running.
+   - Create a database for storing employee data.
+
+4. **Run the Backend Server:**
+   ```
+   node server.js
+   ```
+
+5. **Access the Application:**
+   - Open your web browser and navigate to `http://localhost:3000
+################################################################################
+public/index.html`: Main HTML file for the frontend interface.
+- `public/index.js`: Client-side JavaScript for handling UI interactions and API calls.
+- `server.js`: Node.js script to set up the Express server.
+- `db.js`: Manages the connection pool to the PostgreSQL database.
+- `routes/employees.js`: Defines API endpoints for employee data management.
+
+## Features
+
+- **View Employee Data:** Displays employee details in a table format with columns for ID, Name, Age, Department, and Role.
+- **Add Employee:** Users can add new employees through a form, which updates the database and the table dynamically.
+- **Delete Employee:** Allows users to delete employee records directly from the UI and database.
+- **Search Functionality:** Users can search for employees by name using a search bar.
+- **Sorting:** Users can sort the employee table by any column.
+- **Responsive Design:** Ensures that the application is accessible and visually appealing across different devices.
+
+## Getting Started
+
+### Requirements
+
+To run the project, ensure the following technologies are installed on your computer:
+- Python
+- Node.js
+- PostgreSQL
+
+### Quickstart
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd empdata
+   ```
+
+2. **Set up the PostgreSQL Database:**
+   - Ensure PostgreSQL is installed and running.
+   - Create a database for the application.
+
+3. **Install Backend Dependencies:**
+   ```bash
+   npm install express pg body-parser cors
+   ```
+
+4. **Run the Server:**
+   ```bash
+   node server.js
+   ```
+
+5. **Access the Application:**
+   - Open a web browser and navigate to `http://localhost:3000
+################################################################################
+server.js`: Sets up the Express.js server and handles static file serving and CORS.
+- `public/index.html`: The main HTML file for displaying the employee management interface.
+- `db.js`: Manages the PostgreSQL connection pool.
+- `routes/employees.js`: Defines API endpoints for managing employee data.
+- `public/index.js`: Handles client-side interactions and data fetching for the UI.
+
+## Features
+
+EmpData provides the following features:
+- **Display Employee Data:** View employee details in a table format with sortable columns.
+- **Add Employee:** Add new employee records through a dedicated form page.
+- **Delete Employee:** Remove employee records from the UI and database.
+- **Search and Filter:** Search employees by name using a search bar.
+- **Responsive Design:** Ensures the application is accessible on various devices.
+
+## Getting started
+
+### Requirements
+
+To run the EmpData project, ensure you have the following technologies installed on your computer:
+
+- Python
+- Node.js
+- PostgreSQL
+
+### Quickstart
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd empdata
+   ```
+
+2. **Set up the PostgreSQL database:**
+   - Ensure PostgreSQL is installed and running.
+   - Create a database and configure `db.js` with your database credentials.
+
+3. **Install backend dependencies:**
+   ```bash
+   npm install express pg body-parser cors
+   ```
+
+4. **Run the backend server:**
+   ```bash
+   node server.js
+   ```
+
+5. **Access the application:**
+   - Open your web browser and navigate to `http://localhost:3000
+################################################################################
+markdown
+# EmpData
+
+EmpData is a web-based employee management system designed to display and manage employee details. The application provides functionalities to add, view, and delete employee records, offering a responsive and user-friendly interface for managing employee data.
+
+## Overview
+
+The EmpData project is structured as a web application with a Python-based frontend and an Express.js backend. The frontend utilizes HTML and Bootstrap for styling, ensuring a responsive and clean user interface. The backend is developed using Express.js to handle HTTP requests and manage interactions with a PostgreSQL database, which stores employee data.
+
+### Project Structure
+
+- **Frontend**: Built with HTML and styled using Bootstrap to provide a simple and responsive UI.
+- **Backend**: Developed with Express.js to handle API requests for fetching and manipulating employee data.
+- **Database**: Utilizes PostgreSQL for persistent storage of employee records.
+
+### Technologies Used
+
+- **Python**: Used for frontend development.
+- **Node.js**: Required to run the Express.js backend server.
+- **PostgreSQL**: The database for storing employee data.
+- **Express.js**: Web server framework for Node.js.
+- **pg**: PostgreSQL client for Node.js.
+- **body-parser**: Middleware for parsing incoming request bodies.
+- **cors**: Middleware to enable Cross-Origin Resource Sharing.
+- **Bootstrap**: CSS framework for responsive design.
+
+## Features
+
+- Display employee details in a table format with sortable columns.
+- Add new employees through a form, storing data in a PostgreSQL database.
+- Search and filter employees by name.
+- Delete employee records both from the UI and the database.
+- Responsive design for accessibility across different devices.
+
+## Getting started
+
+### Requirements
+
+Ensure the following technologies are installed on your system:
+
+- Node.js (version 14.x or later)
+- PostgreSQL (version 12.x or later)
+
+### Quickstart
+
+1. **Clone the Repository**: Clone the project repository to your local machine.
+
+2. **Install Backend Dependencies**: Navigate to the project directory and install the required Node.js packages.
+   ```bash
+   npm install express pg body-parser cors
+   ```
+
+3. **Set Up PostgreSQL Database**: Create a PostgreSQL database and configure the connection details in `db.js`.
+
+4. **Run the Backend Server**: Start the Express.js server.
+   ```bash
+   node server.js
+   ```
+
+5. **Access the Application**: Open your web browser and navigate to `http://localhost:3000` to access the EmpData application.
+
+### License
+
+The project is proprietary and copyrighted © 2024.
+################################################################################
+bash
+   npm install express pg body-parser cors
+   ```
+
+3. **Set Up PostgreSQL**: Ensure PostgreSQL is installed and running on your machine. Create a database for storing employee data.
+
+4. **Run the Backend Server**: 
+   ```bash
+   node server.js
+   ```
+
+5. **Access the Application**: Open a web browser and navigate to `http://localhost:3000
